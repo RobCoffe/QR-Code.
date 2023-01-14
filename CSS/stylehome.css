@@ -1,6 +1,7 @@
 /* CSS da barra de navegação */
-body{
-    margin: 0 0 0 0;
+*{
+    padding: 0;
+    margin: 0%;
     font-family: 'Outfit', sans-serif;
 }
 
