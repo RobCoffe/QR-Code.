@@ -18,6 +18,6 @@ Inicio do projeto - 09/01/2023.
 
 (Project Start - 01/09/2023.)
 
-Data de finalização do projeto - 18/01/2023.
+Data de finalização do projeto - 15/01/2023.
 
-(Project finishing date - 01/18/2023.)
+(Project finishing date - 01/15/2023.)
