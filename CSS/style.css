@@ -1,44 +1,51 @@
-/* CSS da barra de navegação */
 *{
     padding: 0;
     margin: 0%;
     font-family: 'Outfit', sans-serif;
 }
 
+/* Transition button*/
+
 header{
-    background: #BBBBBB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(220, 15%, 55%);
+    padding: 40px;
 }
 
-.container-header{
-    padding: 30px 0;
-    width: 940px;
-    margin: 0 auto;
+.button{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 0 0 2.5px 0 #39a2db59;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.ball{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #053742;
+    transition: left 1s;
+}
+.ball-move{
+    left: calc(100% - 40px);
+}
+.dark header{
+    background-color: black;
 }
 
-.nav-header{
-padding-top: 0;
-padding-bottom: 0;
+.dark main{
+    background-color: black;
 }
 
-header li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
+/* QR Code CSS */
 
-header nav a {
-    text-transform: uppercase;
-    color:black;
-    font-weight:bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover{
-    color:white;
-    text-decoration: underline;
-}
-
-/* CSS do QR Code */
 main{
     background-color: hsl(220, 15%, 55%);
     min-height: 100vh;
@@ -48,11 +55,10 @@ main{
 .container{
     max-width: 400px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
 }
 
 .box{
+    
     background-color:#fff;;
     padding: 18px;
     border-radius: 10px;
@@ -60,7 +66,6 @@ main{
 
 .imagem{
     width: 100%;
-
 }
 
 .text{
