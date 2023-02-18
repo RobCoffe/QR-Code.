@@ -21,3 +21,8 @@ Inicio do projeto - 09/01/2023.
 Data de finalização do projeto - 15/01/2023.
 
 (Project finishing date - 01/15/2023.)
+
+Deploy link: https://robsonmatosjunior.github.io/QR-Code/
+
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/111658874/219868422-60ac243e-2174-42d6-a97d-63d8b5c7d856.gif)
